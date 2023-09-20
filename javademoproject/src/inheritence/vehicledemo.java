@@ -2,8 +2,8 @@ package inheritence;
 
 public class vehicledemo {
 	public static void main(String[] args) {
-		Car car = new Car();
-		System.out.println(car.fuel());
+		Vehicle v = new Car();
+		System.out.println(v.fuel());
 		Bus bus =new Bus();
 		System.out.println(bus.fuel());
 		Bike bike = new Bike();
@@ -14,7 +14,7 @@ public class vehicledemo {
 
 class Vehicle{
 	String fuel() {
-		return "petrol";
+		return     "petrol";
 	}
 }
 
