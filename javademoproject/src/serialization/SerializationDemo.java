@@ -73,7 +73,7 @@ public class SerializationDemo {
 	}
 }
 
-class Employee implements Serializable{
+ class Employee implements Serializable{
 	int id;
 	String name;
 	double salary;
